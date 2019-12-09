@@ -17,7 +17,13 @@ public class BudowanieBazy {
         firstNode.setProperty("message", "Hello, ");
         secondNode = graphDb.createNode();
         secondNode.setProperty("message", "World!");
-//dffffffff
+
+        relationship = firstNode.createRelationshipTo(secondNode, RelTypes.ZNA);
+        relationship.setProperty( "message", "brave Neo4j " );
+
+        System.out.print( firstNode.getProperty( "message" ) );
+        System.out.print( relationship.getProperty( "message" ) );
+        System.out.print( secondNode.getProperty( "message" ) );
 
 
     }
