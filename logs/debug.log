@@ -1360,3 +1360,1422 @@
 2019-12-09 19:56:53.079+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database Baza_Grafowa available.
 2019-12-09 19:56:53.080+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is ready.
 2019-12-09 19:56:53.080+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2019-12-09 20:17:10.540+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3300990976 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-09 20:17:10.911+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-09 20:17:11.064+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'Baza_Grafowa' database.
+2019-12-09 20:17:11.096+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database Baza_Grafowa unavailable.
+2019-12-09 20:17:11.097+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is unavailable.
+2019-12-09 20:17:11.114+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Praca_Licencjacka
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=Baza_Grafowa
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Praca_Licencjacka
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-09 20:17:11.115+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-09 20:17:11.116+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-09 20:17:11.151+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 7.91 GB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 1.25 GB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 388.24 MB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 15.81 GB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 6.32 GB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 185.84 MB
+2019-12-09 20:17:11.152+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 203.50 MB
+2019-12-09 20:17:11.153+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 1.76 GB
+2019-12-09 20:17:11.154+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-09 20:17:11.154+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-09 20:17:11.154+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.88 MB, used=5.83 MB, max=240.00 MB, threshold=0.00 B
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=21.05 MB, used=20.12 MB, max=-1.00 B, threshold=0.00 B
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.63 MB, used=2.38 MB, max=1.00 GB, threshold=0.00 B
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=130.00 MB, used=5.13 MB, max=665.00 MB, threshold=?
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=0.00 B, max=5.00 MB, threshold=?
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=68.50 MB, used=12.53 MB, max=1.32 GB, threshold=0.00 B
+2019-12-09 20:17:11.155+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-09 20:17:11.156+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2019-12-09 20:17:11.163+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 11184@MININT-14M14OJ
+2019-12-09 20:17:11.163+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-09 20:17:11.165+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: Europe/Belgrade
+2019-12-09 20:17:11.165+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-09 20:17:11.165+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-09 20:17:11.165+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-09 20:17:11.165+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.201-b09
+2019-12-09 20:17:11.166+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:17:11.166+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar=53030:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin, -Dfile.encoding=UTF-8]
+2019-12-09 20:17:11.166+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-09 20:17:11.170+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/management-agent.jar
+2019-12-09 20:17:11.170+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-codecs/5.5.5/lucene-codecs-5.5.5.jar
+2019-12-09 20:17:11.170+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-bolt/3.5.12/neo4j-bolt-3.5.12.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-util-3.5/3.5.12/neo4j-util-3.5-3.5.12.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-common/3.5.12/neo4j-common-3.5.12.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/plugin.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-util-3.4/3.4.15/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.9/neo4j-graph-matching-3.1.9.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-text/1.4/commons-text-1.4.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections/9.2.0/eclipse-collections-9.2.0.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.5.12/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-util/6.2/asm-util-6.2.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfr.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/lib/tools.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-core/5.5.5/lucene-core-5.5.5.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-analysis/6.2/asm-analysis-6.2.jar
+2019-12-09 20:17:11.171+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/javaws.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-index/3.5.12/neo4j-lucene-index-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-spatial-index/3.5.12/neo4j-spatial-index-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-legacy/3.5.12/neo4j-legacy-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j/3.5.12/neo4j-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-data-collector/3.5.12/neo4j-data-collector-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/deploy.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunjce_provider.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/WMI4Java/1.6.1/WMI4Java-1.6.1.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel-api/3.5.12/neo4j-kernel-api-3.5.12.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections-api/9.2.0/eclipse-collections-api-9.2.0.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%202019.2/lib/idea_rt.jar
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\classes
+2019-12-09 20:17:11.172+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-unsafe/3.5.12/neo4j-unsafe-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ssl/3.5.12/neo4j-ssl-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.5/lucene-queryparser-5.5.5.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfxswt.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-expressions-3.5/3.5.12/neo4j-expressions-3.5-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel/3.5.12/neo4j-kernel-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/licensing-proxy/zstd-proxy/3.5.12/zstd-proxy-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-dbms/3.5.12/neo4j-dbms-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-jmx/3.5.12/neo4j-jmx-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ast-3.5/3.5.12/neo4j-ast-3.5-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Praca_Licencjacka/target/classes/
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-procedure-api/3.5.12/neo4j-procedure-api-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-annotation-processors/3.5.12/neo4j-annotation-processors-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunec.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-rewriting-3.5/3.5.12/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-import-tool/3.5.12/neo4j-import-tool-3.5.12.jar
+2019-12-09 20:17:11.173+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/resources.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/cldrdata.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-configuration/3.5.12/neo4j-configuration-3.5.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/rt.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.5/3.5.12/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-udc/3.5.12/neo4j-udc-3.5.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-front-end-3.5/3.5.12/neo4j-front-end-3.5-3.5.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/luben/zstd-jni/1.3.8-6/zstd-jni-1.3.8-6.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunmscapi.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-diagnostics/3.5.12/neo4j-diagnostics-3.5.12.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.4/3.4.15/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-09 20:17:11.174+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher/3.5.12/neo4j-cypher-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jsse.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-collections/3.5.12/neo4j-collections-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/openCypher-frontend-1/3.4.15/openCypher-frontend-1-3.4.15.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.9/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.9/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-command-line/3.5.12/neo4j-command-line-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunpkcs11.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-algo/3.5.12/neo4j-graph-algo-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jaccess.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-runtime-util/3.5.12/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-interpreted-runtime/3.5.12/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/access-bridge-64.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/jPowerShell/1.9/jPowerShell-1.9.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/charsets.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-consistency-check/3.5.12/neo4j-consistency-check-3.5.12.jar
+2019-12-09 20:17:11.175+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.5/lucene-analyzers-common-5.5.5.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-index/3.5.12/neo4j-index-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-resource/3.5.12/neo4j-resource-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/localedata.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/nashorn.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jce.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-concurrent/3.5.12/neo4j-concurrent-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jfxrt.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/dnsns.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-expression-3.4/3.4.15/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-logging/3.5.12/neo4j-logging-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graphdb-api/3.5.12/neo4j-graphdb-api-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
+2019-12-09 20:17:11.176+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/jprocesses/jProcesses/1.6.4/jProcesses-1.6.4.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.5/3.5.12/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.4/3.4.15/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-values/3.5.12/neo4j-values-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-codegen/3.5.12/neo4j-codegen-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-fulltext-index/3.5.12/neo4j-fulltext-index-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-io/3.5.12/neo4j-io-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/zipfs.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-csv/3.5.12/neo4j-csv-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-parser-3.5/3.5.12/neo4j-parser-3.5-3.5.12.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2019-12-09 20:17:11.177+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-09 20:17:11.178+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:17:11.178+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-09 20:17:11.178+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:17:11.179+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-09 20:17:11.179+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-09 20:17:11.179+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:17:11.180+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\ C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:17:11.180+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\SystemRoot%\system32
+2019-12-09 20:17:11.180+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:17:11.181+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:17:11.181+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\PowerShell\7-preview\preview
+2019-12-09 20:17:11.181+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:17:11.181+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:17:11.182+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\bin
+2019-12-09 20:17:11.182+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\cmd
+2019-12-09 20:17:11.183+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\Karol\AppData\Local\Programs\Fiddler
+2019-12-09 20:17:11.183+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = PL
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = Service Pack 1
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Praca_Licencjacka
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1250
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\Karol
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = Europe/Belgrade
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = Karol
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BudowanieBazy
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = pl
+2019-12-09 20:17:11.184+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-09 20:17:11.185+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-09 20:17:11.206+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-09 20:17:11.206+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter:
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM:
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:f5fd:ea92:a57e:f37%eth3
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Dell Wireless 1506 802.11b/g/n (2.4GHz):
+2019-12-09 20:17:11.362+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Remote NDIS based Internet Sharing Device:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #4:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #3:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:34de:7e:7b74:5ceb%eth5
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (Protokół TDI RFCOMM):
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista):
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:2522:233c:95ce:7b77%eth6
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 169.254.247.172
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:6cd3:e6f5:e7a5:f7ac%eth7
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235:
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.1
+2019-12-09 20:17:11.363+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:d948:eec0:9cb4:dc18%wlan1
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:9803:bef7:3d4c:abad%wlan2
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-WFP LightWeight Filter-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Virtual WiFi Filter Driver-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.364+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-WFP LightWeight Filter-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-WFP LightWeight Filter-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Native WiFi Filter Driver-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-WFP LightWeight Filter-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-QoS Packet Scheduler-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-WFP LightWeight Filter-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:17:11.365+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-09 20:17:11.540+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:17:11.566+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:17:11.567+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2019-12-09 20:17:12.144+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job registered
+2019-12-09 20:17:12.146+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job started
+2019-12-09 20:17:12.149+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job finished: Number of pages visited: 2, Number of cleaned crashed pointers: 0, Time spent: 3ms
+2019-12-09 20:17:12.150+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job closed
+2019-12-09 20:17:12.151+0000 INFO [o.n.k.NeoStoreDataSource] No check point found in transaction log
+2019-12-09 20:17:12.151+0000 INFO [o.n.k.NeoStoreDataSource] Recovery required from position LogPosition{logVersion=0, byteOffset=16}
+2019-12-09 20:17:12.162+0000 INFO [o.n.k.r.Recovery]   10% completed
+2019-12-09 20:17:12.162+0000 INFO [o.n.k.r.Recovery]   20% completed
+2019-12-09 20:17:12.162+0000 INFO [o.n.k.r.Recovery]   30% completed
+2019-12-09 20:17:12.162+0000 INFO [o.n.k.r.Recovery]   40% completed
+2019-12-09 20:17:12.163+0000 INFO [o.n.k.r.Recovery]   50% completed
+2019-12-09 20:17:12.163+0000 INFO [o.n.k.r.Recovery]   60% completed
+2019-12-09 20:17:12.163+0000 INFO [o.n.k.r.Recovery]   70% completed
+2019-12-09 20:17:12.163+0000 INFO [o.n.k.r.Recovery]   80% completed
+2019-12-09 20:17:12.164+0000 INFO [o.n.k.r.Recovery]   90% completed
+2019-12-09 20:17:12.164+0000 INFO [o.n.k.r.Recovery]   100% completed
+2019-12-09 20:17:12.166+0000 INFO [o.n.k.NeoStoreDataSource] No recovery required
+2019-12-09 20:17:12.167+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] ...
+2019-12-09 20:17:12.178+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-12-09 20:17:12.179+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.179+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] ...
+2019-12-09 20:17:12.187+0000 INFO [o.n.k.i.s.NodeStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] high id=0 (defragged=0)
+2019-12-09 20:17:12.188+0000 INFO [o.n.k.i.s.NodeStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.188+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] ...
+2019-12-09 20:17:12.197+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-12-09 20:17:12.197+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.198+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] ...
+2019-12-09 20:17:12.206+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-12-09 20:17:12.207+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.216+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] ...
+2019-12-09 20:17:12.225+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-12-09 20:17:12.225+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.225+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] ...
+2019-12-09 20:17:12.234+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-12-09 20:17:12.234+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.235+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] ...
+2019-12-09 20:17:12.243+0000 INFO [o.n.k.i.s.PropertyStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] high id=0 (defragged=0)
+2019-12-09 20:17:12.244+0000 INFO [o.n.k.i.s.PropertyStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.244+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] ...
+2019-12-09 20:17:12.253+0000 INFO [o.n.k.i.s.RelationshipStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-12-09 20:17:12.253+0000 INFO [o.n.k.i.s.RelationshipStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.254+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] ...
+2019-12-09 20:17:12.264+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-12-09 20:17:12.265+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.265+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] ...
+2019-12-09 20:17:12.273+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-12-09 20:17:12.274+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.283+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] ...
+2019-12-09 20:17:12.292+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-12-09 20:17:12.292+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.292+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] ...
+2019-12-09 20:17:12.301+0000 INFO [o.n.k.i.s.LabelTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-12-09 20:17:12.301+0000 INFO [o.n.k.i.s.LabelTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:17:12.311+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] ...
+2019-12-09 20:17:12.319+0000 INFO [o.n.k.i.s.SchemaStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] high id=1 (defragged=0)
+2019-12-09 20:17:12.320+0000 INFO [o.n.k.i.s.SchemaStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.320+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] ...
+2019-12-09 20:17:12.329+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-12-09 20:17:12.329+0000 INFO [o.n.k.i.s.RelationshipGroupStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:17:12.330+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore] ...
+2019-12-09 20:17:12.339+0000 INFO [o.n.k.i.s.MetaDataStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore] high id=15 (defragged=0)
+2019-12-09 20:17:12.339+0000 INFO [o.n.k.i.s.MetaDataStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore rebuild id generator, highId=15 defragged count=0
+2019-12-09 20:17:12.350+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-09 20:17:12.350+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575919522442, randomId=7984231267826260476, storeVersion=16094931155187206, upgradeTime=1575919522442, upgradeId=1}
+2019-12-09 20:17:12.350+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-09 20:17:12.350+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-09 20:17:12.352+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-09 20:17:12.352+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-09 20:17:12.353+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:17:12.353+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-09 20:17:12.353+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:17:12.353+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:17:12.354+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-09 20:17:12.355+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:17:12.355+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-09 20:17:12.355+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-09 20:17:12.355+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-09 20:17:12.355+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-09 20:17:12.356+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-09 20:17:12.356+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-09 20:17:12.356+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-09 20:17:12.357+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:17:12.357+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-09 20:17:12.358+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:17:12.358+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-09 20:17:12.358+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:17:12.358+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:17:12.359+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-09 20:17:12.359+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-09 20:17:12.359+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:17:12.359+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-09 20:17:12.360+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:17:12.360+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-09 20:17:12.360+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-09 20:17:12.360+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-09 20:17:12.360+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-09 20:17:12.361+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-09 20:17:12.361+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-09 20:17:12.361+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-09 20:17:12.362+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575919522442
+2019-12-09 20:17:12.362+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7984231267826260476
+2019-12-09 20:17:12.362+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-09 20:17:12.363+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-09 20:17:12.363+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-09 20:17:12.363+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-09 20:17:12.363+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-09 20:17:12.363+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-09 20:17:12.364+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575919522442
+2019-12-09 20:17:12.364+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-09 20:17:12.364+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-09 20:17:12.364+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-09 20:17:12.365+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-09 20:17:12.365+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-09 20:17:12.365+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-09 20:17:12.365+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-09 20:17:12.367+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-09 20:17:12.367+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-09 20:17:12.368+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-09 20:17:12.368+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-09 20:17:12.372+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-09 20:17:12.373+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 485423575040 / 204668948480 / 42
+2019-12-09 20:17:12.373+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-09 20:17:12.377+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-09 20:17:12.378+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-09T20:25:24+0100 - 0.00 B
+2019-12-09 20:17:12.379+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.379+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-09T20:25:25+0100 - 96.00 B
+2019-12-09 20:17:12.380+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.380+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-09T21:17:12+0100 - 40.00 kB
+2019-12-09 20:17:12.380+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.381+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.381+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.382+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.382+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.383+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.384+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.384+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.385+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.385+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.386+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.386+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.386+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.387+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.387+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.388+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.388+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.389+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.389+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.390+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.390+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.391+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.391+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:17:12.391+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.392+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.392+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.393+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:17:12.393+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-09T21:17:12+0100 - 9.00 B
+2019-12-09 20:17:12.394+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-09T20:25:25+0100 - 16.00 B
+2019-12-09 20:17:12.394+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-09 20:17:12.394+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-09 20:17:12.394+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-09 20:17:12.394+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-09 20:17:12.395+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database Baza_Grafowa available.
+2019-12-09 20:17:12.395+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is ready.
+2019-12-09 20:17:12.396+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2019-12-09 20:21:46.267+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3300990976 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-09 20:21:46.697+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-09 20:21:46.858+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'Baza_Grafowa' database.
+2019-12-09 20:21:46.889+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database Baza_Grafowa unavailable.
+2019-12-09 20:21:46.890+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is unavailable.
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Praca_Licencjacka
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=Baza_Grafowa
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Praca_Licencjacka
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-09 20:21:46.908+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-09 20:21:46.909+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-09 20:21:46.945+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 7.91 GB
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 1.33 GB
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 401.24 MB
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 15.81 GB
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 6.40 GB
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-09 20:21:46.946+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 116.47 MB
+2019-12-09 20:21:46.947+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 133.00 MB
+2019-12-09 20:21:46.947+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 1.76 GB
+2019-12-09 20:21:46.948+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-09 20:21:46.948+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.88 MB, used=5.82 MB, max=240.00 MB, threshold=0.00 B
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=21.05 MB, used=20.11 MB, max=-1.00 B, threshold=0.00 B
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.63 MB, used=2.38 MB, max=1.00 GB, threshold=0.00 B
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=65.00 MB, used=2.56 MB, max=657.00 MB, threshold=?
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=0.00 B, max=5.00 MB, threshold=?
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=63.00 MB, used=13.96 MB, max=1.32 GB, threshold=0.00 B
+2019-12-09 20:21:46.949+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-09 20:21:46.950+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2019-12-09 20:21:46.958+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 5732@MININT-14M14OJ
+2019-12-09 20:21:46.959+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: Europe/Belgrade
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.201-b09
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar=53066:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin, -Dfile.encoding=UTF-8]
+2019-12-09 20:21:46.961+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-09 20:21:46.965+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/management-agent.jar
+2019-12-09 20:21:46.965+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-codecs/5.5.5/lucene-codecs-5.5.5.jar
+2019-12-09 20:21:46.965+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar
+2019-12-09 20:21:46.965+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-bolt/3.5.12/neo4j-bolt-3.5.12.jar
+2019-12-09 20:21:46.965+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-util-3.5/3.5.12/neo4j-util-3.5-3.5.12.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-common/3.5.12/neo4j-common-3.5.12.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/plugin.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-util-3.4/3.4.15/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.9/neo4j-graph-matching-3.1.9.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-text/1.4/commons-text-1.4.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections/9.2.0/eclipse-collections-9.2.0.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.5.12/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-util/6.2/asm-util-6.2.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfr.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/lib/tools.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-core/5.5.5/lucene-core-5.5.5.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-analysis/6.2/asm-analysis-6.2.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/javaws.jar
+2019-12-09 20:21:46.966+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-index/3.5.12/neo4j-lucene-index-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-spatial-index/3.5.12/neo4j-spatial-index-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-legacy/3.5.12/neo4j-legacy-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j/3.5.12/neo4j-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-data-collector/3.5.12/neo4j-data-collector-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/deploy.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunjce_provider.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/WMI4Java/1.6.1/WMI4Java-1.6.1.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel-api/3.5.12/neo4j-kernel-api-3.5.12.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections-api/9.2.0/eclipse-collections-api-9.2.0.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%202019.2/lib/idea_rt.jar
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\classes
+2019-12-09 20:21:46.967+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-unsafe/3.5.12/neo4j-unsafe-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ssl/3.5.12/neo4j-ssl-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.5/lucene-queryparser-5.5.5.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfxswt.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-expressions-3.5/3.5.12/neo4j-expressions-3.5-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel/3.5.12/neo4j-kernel-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/licensing-proxy/zstd-proxy/3.5.12/zstd-proxy-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-dbms/3.5.12/neo4j-dbms-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-jmx/3.5.12/neo4j-jmx-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ast-3.5/3.5.12/neo4j-ast-3.5-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Praca_Licencjacka/target/classes/
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-procedure-api/3.5.12/neo4j-procedure-api-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-annotation-processors/3.5.12/neo4j-annotation-processors-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunec.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-rewriting-3.5/3.5.12/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-09 20:21:46.968+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-import-tool/3.5.12/neo4j-import-tool-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/resources.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/cldrdata.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-configuration/3.5.12/neo4j-configuration-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/rt.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.5/3.5.12/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-udc/3.5.12/neo4j-udc-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-front-end-3.5/3.5.12/neo4j-front-end-3.5-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/luben/zstd-jni/1.3.8-6/zstd-jni-1.3.8-6.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunmscapi.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-diagnostics/3.5.12/neo4j-diagnostics-3.5.12.jar
+2019-12-09 20:21:46.969+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.4/3.4.15/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher/3.5.12/neo4j-cypher-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jsse.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-collections/3.5.12/neo4j-collections-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/openCypher-frontend-1/3.4.15/openCypher-frontend-1-3.4.15.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.9/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.9/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-command-line/3.5.12/neo4j-command-line-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunpkcs11.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-algo/3.5.12/neo4j-graph-algo-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jaccess.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-runtime-util/3.5.12/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-interpreted-runtime/3.5.12/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/access-bridge-64.jar
+2019-12-09 20:21:46.970+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/jPowerShell/1.9/jPowerShell-1.9.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/charsets.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-consistency-check/3.5.12/neo4j-consistency-check-3.5.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.5/lucene-analyzers-common-5.5.5.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-index/3.5.12/neo4j-index-3.5.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-resource/3.5.12/neo4j-resource-3.5.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/localedata.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/nashorn.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jce.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-concurrent/3.5.12/neo4j-concurrent-3.5.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jfxrt.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/dnsns.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar
+2019-12-09 20:21:46.971+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-expression-3.4/3.4.15/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-logging/3.5.12/neo4j-logging-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graphdb-api/3.5.12/neo4j-graphdb-api-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/jprocesses/jProcesses/1.6.4/jProcesses-1.6.4.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.5/3.5.12/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.4/3.4.15/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-values/3.5.12/neo4j-values-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-codegen/3.5.12/neo4j-codegen-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-fulltext-index/3.5.12/neo4j-fulltext-index-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-io/3.5.12/neo4j-io-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/zipfs.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-csv/3.5.12/neo4j-csv-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-parser-3.5/3.5.12/neo4j-parser-3.5-3.5.12.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2019-12-09 20:21:46.972+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-09 20:21:46.973+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:21:46.973+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-09 20:21:46.974+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:21:46.974+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-09 20:21:46.974+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-09 20:21:46.974+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:21:46.975+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\ C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:21:46.975+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\SystemRoot%\system32
+2019-12-09 20:21:46.975+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:21:46.976+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:21:46.976+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\PowerShell\7-preview\preview
+2019-12-09 20:21:46.976+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:21:46.976+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:21:46.977+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\bin
+2019-12-09 20:21:46.977+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\cmd
+2019-12-09 20:21:46.978+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\Karol\AppData\Local\Programs\Fiddler
+2019-12-09 20:21:46.978+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin
+2019-12-09 20:21:46.978+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:21:46.978+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:21:46.978+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = PL
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = Service Pack 1
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Praca_Licencjacka
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1250
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\Karol
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = Europe/Belgrade
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = Karol
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BudowanieBazy
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = pl
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-09 20:21:46.979+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-09 20:21:47.003+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-09 20:21:47.003+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-09 20:21:47.160+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:f5fd:ea92:a57e:f37%eth3
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Dell Wireless 1506 802.11b/g/n (2.4GHz):
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Remote NDIS based Internet Sharing Device:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #4:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #3:
+2019-12-09 20:21:47.161+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:34de:7e:7b74:5ceb%eth5
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (Protokół TDI RFCOMM):
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista):
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:2522:233c:95ce:7b77%eth6
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 169.254.247.172
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:6cd3:e6f5:e7a5:f7ac%eth7
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.1
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:d948:eec0:9cb4:dc18%wlan1
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:9803:bef7:3d4c:abad%wlan2
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-WFP LightWeight Filter-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Virtual WiFi Filter Driver-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.162+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-WFP LightWeight Filter-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-WFP LightWeight Filter-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Native WiFi Filter Driver-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-WFP LightWeight Filter-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-QoS Packet Scheduler-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-WFP LightWeight Filter-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:21:47.163+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-09 20:21:47.342+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:21:47.368+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:21:47.369+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2019-12-09 20:21:47.941+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job registered
+2019-12-09 20:21:47.943+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job started
+2019-12-09 20:21:47.947+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job finished: Number of pages visited: 2, Number of cleaned crashed pointers: 0, Time spent: 3ms
+2019-12-09 20:21:47.947+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job closed
+2019-12-09 20:21:47.948+0000 INFO [o.n.k.NeoStoreDataSource] No check point found in transaction log
+2019-12-09 20:21:47.948+0000 INFO [o.n.k.NeoStoreDataSource] Recovery required from position LogPosition{logVersion=0, byteOffset=16}
+2019-12-09 20:21:47.958+0000 INFO [o.n.k.r.Recovery]   10% completed
+2019-12-09 20:21:47.958+0000 INFO [o.n.k.r.Recovery]   20% completed
+2019-12-09 20:21:47.959+0000 INFO [o.n.k.r.Recovery]   30% completed
+2019-12-09 20:21:47.959+0000 INFO [o.n.k.r.Recovery]   40% completed
+2019-12-09 20:21:47.959+0000 INFO [o.n.k.r.Recovery]   50% completed
+2019-12-09 20:21:47.959+0000 INFO [o.n.k.r.Recovery]   60% completed
+2019-12-09 20:21:47.960+0000 INFO [o.n.k.r.Recovery]   70% completed
+2019-12-09 20:21:47.960+0000 INFO [o.n.k.r.Recovery]   80% completed
+2019-12-09 20:21:47.960+0000 INFO [o.n.k.r.Recovery]   90% completed
+2019-12-09 20:21:47.960+0000 INFO [o.n.k.r.Recovery]   100% completed
+2019-12-09 20:21:47.962+0000 INFO [o.n.k.NeoStoreDataSource] No recovery required
+2019-12-09 20:21:47.963+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] ...
+2019-12-09 20:21:47.974+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-12-09 20:21:47.974+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:47.974+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] ...
+2019-12-09 20:21:47.983+0000 INFO [o.n.k.i.s.NodeStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] high id=0 (defragged=0)
+2019-12-09 20:21:47.983+0000 INFO [o.n.k.i.s.NodeStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:47.983+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] ...
+2019-12-09 20:21:47.993+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-12-09 20:21:47.993+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:47.993+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] ...
+2019-12-09 20:21:48.002+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-12-09 20:21:48.002+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:48.013+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] ...
+2019-12-09 20:21:48.023+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-12-09 20:21:48.023+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.023+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] ...
+2019-12-09 20:21:48.032+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-12-09 20:21:48.033+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.033+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] ...
+2019-12-09 20:21:48.041+0000 INFO [o.n.k.i.s.PropertyStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] high id=0 (defragged=0)
+2019-12-09 20:21:48.041+0000 INFO [o.n.k.i.s.PropertyStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:48.041+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] ...
+2019-12-09 20:21:48.050+0000 INFO [o.n.k.i.s.RelationshipStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-12-09 20:21:48.050+0000 INFO [o.n.k.i.s.RelationshipStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:48.050+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] ...
+2019-12-09 20:21:48.061+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-12-09 20:21:48.061+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.061+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] ...
+2019-12-09 20:21:48.070+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-12-09 20:21:48.070+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:48.079+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] ...
+2019-12-09 20:21:48.088+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-12-09 20:21:48.088+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.088+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] ...
+2019-12-09 20:21:48.098+0000 INFO [o.n.k.i.s.LabelTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-12-09 20:21:48.098+0000 INFO [o.n.k.i.s.LabelTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:21:48.107+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] ...
+2019-12-09 20:21:48.116+0000 INFO [o.n.k.i.s.SchemaStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] high id=1 (defragged=0)
+2019-12-09 20:21:48.117+0000 INFO [o.n.k.i.s.SchemaStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.117+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] ...
+2019-12-09 20:21:48.125+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-12-09 20:21:48.126+0000 INFO [o.n.k.i.s.RelationshipGroupStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:21:48.126+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore] ...
+2019-12-09 20:21:48.135+0000 INFO [o.n.k.i.s.MetaDataStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore] high id=15 (defragged=0)
+2019-12-09 20:21:48.136+0000 INFO [o.n.k.i.s.MetaDataStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore rebuild id generator, highId=15 defragged count=0
+2019-12-09 20:21:48.147+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-09 20:21:48.147+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575919522442, randomId=7984231267826260476, storeVersion=16094931155187206, upgradeTime=1575919522442, upgradeId=1}
+2019-12-09 20:21:48.148+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-09 20:21:48.148+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-09 20:21:48.150+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-09 20:21:48.150+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-09 20:21:48.150+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:21:48.151+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-09 20:21:48.151+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:21:48.151+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-09 20:21:48.151+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:21:48.152+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:21:48.152+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-09 20:21:48.152+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-09 20:21:48.152+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:21:48.153+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-09 20:21:48.153+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:21:48.153+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-09 20:21:48.153+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-09 20:21:48.154+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-09 20:21:48.154+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-09 20:21:48.154+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-09 20:21:48.154+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-09 20:21:48.154+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-09 20:21:48.155+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:21:48.155+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-09 20:21:48.156+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:21:48.156+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-09 20:21:48.156+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:21:48.156+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:21:48.157+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-09 20:21:48.157+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-09 20:21:48.157+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:21:48.157+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-09 20:21:48.157+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:21:48.158+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-09 20:21:48.158+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-09 20:21:48.158+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-09 20:21:48.158+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-09 20:21:48.158+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-09 20:21:48.159+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-09 20:21:48.159+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-09 20:21:48.159+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575919522442
+2019-12-09 20:21:48.160+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7984231267826260476
+2019-12-09 20:21:48.160+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-09 20:21:48.160+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-09 20:21:48.160+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-09 20:21:48.160+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-09 20:21:48.161+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-09 20:21:48.161+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-09 20:21:48.161+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575919522442
+2019-12-09 20:21:48.161+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-09 20:21:48.161+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-09 20:21:48.162+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-09 20:21:48.162+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-09 20:21:48.162+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-09 20:21:48.162+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-09 20:21:48.162+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-09 20:21:48.164+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-09 20:21:48.164+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-09 20:21:48.164+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-09 20:21:48.165+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-09 20:21:48.168+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-09 20:21:48.169+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 485423575040 / 204666826752 / 42
+2019-12-09 20:21:48.169+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-09 20:21:48.173+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-09 20:21:48.174+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-09T20:25:24+0100 - 0.00 B
+2019-12-09 20:21:48.175+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.176+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-09T20:25:25+0100 - 96.00 B
+2019-12-09 20:21:48.176+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.177+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-09T21:21:47+0100 - 40.00 kB
+2019-12-09 20:21:48.177+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.178+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.178+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.179+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.179+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.180+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-09T21:21:47+0100 - 9.00 B
+2019-12-09 20:21:48.180+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.181+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-09T21:21:47+0100 - 9.00 B
+2019-12-09 20:21:48.181+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.182+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.182+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.183+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.183+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.184+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.184+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.185+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-09T21:21:47+0100 - 9.00 B
+2019-12-09 20:21:48.186+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.186+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.187+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.187+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.188+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.188+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.189+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:21:48.189+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.189+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.190+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.190+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:21:48.191+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-09T21:21:48+0100 - 9.00 B
+2019-12-09 20:21:48.191+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-09T20:25:25+0100 - 16.00 B
+2019-12-09 20:21:48.191+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-09 20:21:48.191+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-09 20:21:48.192+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-09 20:21:48.192+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-09 20:21:48.192+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database Baza_Grafowa available.
+2019-12-09 20:21:48.193+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is ready.
+2019-12-09 20:21:48.193+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2019-12-09 20:29:57.010+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3300990976 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2019-12-09 20:29:57.394+0000 INFO [o.n.g.f.m.e.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2019-12-09 20:29:57.546+0000 INFO [o.n.g.f.GraphDatabaseFacadeFactory] Creating 'Baza_Grafowa' database.
+2019-12-09 20:29:57.579+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Requirement `Database available` makes database Baza_Grafowa unavailable.
+2019-12-09 20:29:57.580+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is unavailable.
+2019-12-09 20:29:57.597+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2019-12-09 20:29:57.597+0000 INFO [o.n.i.d.DiagnosticsManager] Neo4j Kernel properties:
+2019-12-09 20:29:57.597+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=C:\Praca_Licencjacka
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] dbms.active_database=Baza_Grafowa
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.directories.databases.root=C:\Praca_Licencjacka
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.edition=community
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] Diagnostics providers:
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] org.neo4j.internal.diagnostics.DiagnosticsManager
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_MEMORY
+2019-12-09 20:29:57.598+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_MEMORY
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] OPERATING_SYSTEM
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] CLASSPATH
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] LIBRARY_PATH
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] SYSTEM_PROPERTIES
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] TIMEZONE_DATABASE
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] NETWORK
+2019-12-09 20:29:57.599+0000 INFO [o.n.i.d.DiagnosticsManager] System memory information:
+2019-12-09 20:29:57.640+0000 INFO [o.n.i.d.DiagnosticsManager] Total Physical memory: 7.91 GB
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] Free Physical memory: 1.19 GB
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] Committed virtual memory: 396.87 MB
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] Total swap space: 15.81 GB
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] Free swap space: 6.26 GB
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] JVM memory information:
+2019-12-09 20:29:57.641+0000 INFO [o.n.i.d.DiagnosticsManager] Free  memory: 118.92 MB
+2019-12-09 20:29:57.642+0000 INFO [o.n.i.d.DiagnosticsManager] Total memory: 134.00 MB
+2019-12-09 20:29:57.642+0000 INFO [o.n.i.d.DiagnosticsManager] Max   memory: 1.76 GB
+2019-12-09 20:29:57.643+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2019-12-09 20:29:57.643+0000 INFO [o.n.i.d.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2019-12-09 20:29:57.644+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=5.81 MB, used=5.75 MB, max=240.00 MB, threshold=0.00 B
+2019-12-09 20:29:57.644+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=21.05 MB, used=20.09 MB, max=-1.00 B, threshold=0.00 B
+2019-12-09 20:29:57.644+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=2.63 MB, used=2.38 MB, max=1.00 GB, threshold=0.00 B
+2019-12-09 20:29:57.644+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=65.00 MB, used=2.57 MB, max=657.50 MB, threshold=?
+2019-12-09 20:29:57.645+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=5.00 MB, used=0.00 B, max=5.00 MB, threshold=?
+2019-12-09 20:29:57.645+0000 INFO [o.n.i.d.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=64.00 MB, used=12.51 MB, max=1.32 GB, threshold=0.00 B
+2019-12-09 20:29:57.645+0000 INFO [o.n.i.d.DiagnosticsManager] Operating system information:
+2019-12-09 20:29:57.645+0000 INFO [o.n.i.d.DiagnosticsManager] Operating System: Windows 7; version: 6.1; arch: amd64; cpus: 8
+2019-12-09 20:29:57.653+0000 INFO [o.n.i.d.DiagnosticsManager] Process id: 11540@MININT-14M14OJ
+2019-12-09 20:29:57.653+0000 INFO [o.n.i.d.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2019-12-09 20:29:57.655+0000 INFO [o.n.i.d.DiagnosticsManager] Local timezone: Europe/Belgrade
+2019-12-09 20:29:57.655+0000 INFO [o.n.i.d.DiagnosticsManager] JVM information:
+2019-12-09 20:29:57.655+0000 INFO [o.n.i.d.DiagnosticsManager] VM Name: Java HotSpot(TM) 64-Bit Server VM
+2019-12-09 20:29:57.655+0000 INFO [o.n.i.d.DiagnosticsManager] VM Vendor: Oracle Corporation
+2019-12-09 20:29:57.655+0000 INFO [o.n.i.d.DiagnosticsManager] VM Version: 25.201-b09
+2019-12-09 20:29:57.656+0000 INFO [o.n.i.d.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:29:57.656+0000 INFO [o.n.i.d.DiagnosticsManager] VM Arguments: [-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar=53119:C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin, -Dfile.encoding=UTF-8]
+2019-12-09 20:29:57.656+0000 INFO [o.n.i.d.DiagnosticsManager] Java classpath:
+2019-12-09 20:29:57.660+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/management-agent.jar
+2019-12-09 20:29:57.660+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-codecs/5.5.5/lucene-codecs-5.5.5.jar
+2019-12-09 20:29:57.660+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar
+2019-12-09 20:29:57.660+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-bolt/3.5.12/neo4j-bolt-3.5.12.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-util-3.5/3.5.12/neo4j-util-3.5-3.5.12.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-common/3.5.12/neo4j-common-3.5.12.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/plugin.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-util-3.4/3.4.15/neo4j-cypher-util-3.4-3.4.15.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-matching/3.1.9/neo4j-graph-matching-3.1.9.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-text/1.4/commons-text-1.4.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections/9.2.0/eclipse-collections-9.2.0.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-upgrade/3.5.12/neo4j-lucene-upgrade-3.5.12.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/net/sf/opencsv/opencsv/2.3/opencsv-2.3.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-util/6.2/asm-util-6.2.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfr.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/lib/tools.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-core/5.5.5/lucene-core-5.5.5.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-analysis/6.2/asm-analysis-6.2.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/javaws.jar
+2019-12-09 20:29:57.661+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-lucene-index/3.5.12/neo4j-lucene-index-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-spatial-index/3.5.12/neo4j-spatial-index-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-legacy/3.5.12/neo4j-legacy-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\lib\idea_rt.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j/3.5.12/neo4j-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-data-collector/3.5.12/neo4j-data-collector-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/deploy.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/io/netty/netty-all/4.1.32.Final/netty-all-4.1.32.Final.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunjce_provider.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/WMI4Java/1.6.1/WMI4Java-1.6.1.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel-api/3.5.12/neo4j-kernel-api-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/eclipse/collections/eclipse-collections-api/9.2.0/eclipse-collections-api-9.2.0.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/JetBrains/IntelliJ%20IDEA%202019.2/lib/idea_rt.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\classes
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-unsafe/3.5.12/neo4j-unsafe-3.5.12.jar
+2019-12-09 20:29:57.662+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ssl/3.5.12/neo4j-ssl-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-lang3/3.8/commons-lang3-3.8.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-queryparser/5.5.5/lucene-queryparser-5.5.5.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jfxswt.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-expressions-3.5/3.5.12/neo4j-expressions-3.5-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-kernel/3.5.12/neo4j-kernel-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/licensing-proxy/zstd-proxy/3.5.12/zstd-proxy-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-dbms/3.5.12/neo4j-dbms-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-jmx/3.5.12/neo4j-jmx-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-ast-3.5/3.5.12/neo4j-ast-3.5-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Praca_Licencjacka/target/classes/
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-procedure-api/3.5.12/neo4j-procedure-api-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-annotation-processors/3.5.12/neo4j-annotation-processors-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunec.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\lib\tools.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-rewriting-3.5/3.5.12/neo4j-rewriting-3.5-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm/6.2/asm-6.2.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-import-tool/3.5.12/neo4j-import-tool-3.5.12.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/resources.jar
+2019-12-09 20:29:57.663+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/cldrdata.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-configuration/3.5.12/neo4j-configuration-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/rt.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/ow2/asm/asm-tree/6.2/asm-tree-6.2.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.5/3.5.12/neo4j-cypher-planner-3.5-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap] C:\Program Files\Java\jdk1.8.0_201\jre\lib\sunrsasign.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-udc/3.5.12/neo4j-udc-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-front-end-3.5/3.5.12/neo4j-front-end-3.5-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/luben/zstd-jni/1.3.8-6/zstd-jni-1.3.8-6.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-2.3/2.3.12/neo4j-cypher-frontend-2.3-2.3.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunmscapi.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-diagnostics/3.5.12/neo4j-diagnostics-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/commons/commons-compress/1.19/commons-compress-1.19.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.4/3.4.15/neo4j-cypher-ir-3.4-3.4.15.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/googlecode/concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/concurrentlinkedhashmap-lru-1.4.2.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher/3.5.12/neo4j-cypher-3.5.12.jar
+2019-12-09 20:29:57.664+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcpkix-jdk15on/1.60/bcpkix-jdk15on-1.60.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jsse.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-collections/3.5.12/neo4j-collections-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/openCypher-frontend-1/3.4.15/openCypher-frontend-1-3.4.15.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-3.1/3.1.9/neo4j-cypher-compiler-3.1-3.1.9.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-frontend-3.1/3.1.9/neo4j-cypher-frontend-3.1-3.1.9.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-command-line/3.5.12/neo4j-command-line-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/sunpkcs11.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graph-algo/3.5.12/neo4j-graph-algo-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-compiler-2.3/2.3.12/neo4j-cypher-compiler-2.3-2.3.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jaccess.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-runtime-util/3.5.12/neo4j-cypher-runtime-util-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-interpreted-runtime/3.5.12/neo4j-cypher-interpreted-runtime-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/access-bridge-64.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-scala_2.11/1.1.7/parboiled-scala_2.11-1.1.7.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/profesorfalken/jPowerShell/1.9/jPowerShell-1.9.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/charsets.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.5/3.5.12/neo4j-cypher-logical-plans-3.5-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-consistency-check/3.5.12/neo4j-consistency-check-3.5.12.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/apache/lucene/lucene-analyzers-common/5.5.5/lucene-analyzers-common-5.5.5.jar
+2019-12-09 20:29:57.665+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-index/3.5.12/neo4j-index-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-resource/3.5.12/neo4j-resource-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/localedata.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/nashorn.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.4/3.4.15/neo4j-cypher-planner-spi-3.4-3.4.15.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-logical-plans-3.4/3.4.15/neo4j-cypher-logical-plans-3.4-3.4.15.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.0] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/jce.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-concurrent/3.5.12/neo4j-concurrent-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/jfxrt.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/dnsns.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-expression-3.4/3.4.15/neo4j-cypher-expression-3.4-3.4.15.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-logging/3.5.12/neo4j-logging-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-graphdb-api/3.5.12/neo4j-graphdb-api-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [bootstrap + classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-spi-3.5/3.5.12/neo4j-cypher-planner-spi-3.5-3.5.12.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/bouncycastle/bcprov-jdk15on/1.60/bcprov-jdk15on-1.60.jar
+2019-12-09 20:29:57.666+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/jprocesses/jProcesses/1.6.4/jProcesses-1.6.4.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-ir-3.5/3.5.12/neo4j-cypher-ir-3.5-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-cypher-planner-3.4/3.4.15/neo4j-cypher-planner-3.4-3.4.15.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-values/3.5.12/neo4j-values-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-codegen/3.5.12/neo4j-codegen-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath] C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-fulltext-index/3.5.12/neo4j-fulltext-index-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-io/3.5.12/neo4j-io-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/com/github/ben-manes/caffeine/caffeine/2.3.3/caffeine-2.3.3.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [loader.1] file:/C:/Program%20Files/Java/jdk1.8.0_201/jre/lib/ext/zipfs.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-csv/3.5.12/neo4j-csv-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/neo4j/neo4j-parser-3.5/3.5.12/neo4j-parser-3.5-3.5.12.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager]  [classpath + loader.0] file:/C:/Users/Karol/.m2/repository/org/parboiled/parboiled-core/1.1.7/parboiled-core-1.1.7.jar
+2019-12-09 20:29:57.667+0000 INFO [o.n.i.d.DiagnosticsManager] Library path:
+2019-12-09 20:29:57.668+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:29:57.669+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\Sun\Java\bin
+2019-12-09 20:29:57.669+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:29:57.670+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows
+2019-12-09 20:29:57.670+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\wbem
+2019-12-09 20:29:57.670+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:29:57.671+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\ C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:29:57.671+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka\SystemRoot%\system32
+2019-12-09 20:29:57.671+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Java\jdk1.8.0_201\bin
+2019-12-09 20:29:57.672+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:29:57.672+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\PowerShell\7-preview\preview
+2019-12-09 20:29:57.672+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32\WindowsPowerShell\v1.0
+2019-12-09 20:29:57.672+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Windows\System32
+2019-12-09 20:29:57.673+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\bin
+2019-12-09 20:29:57.673+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\Git\cmd
+2019-12-09 20:29:57.674+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Users\Karol\AppData\Local\Programs\Fiddler
+2019-12-09 20:29:57.674+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Program Files\JetBrains\IntelliJ IDEA 2019.2\bin
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] C:\Praca_Licencjacka
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] System.properties:
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_201\jre\bin
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] path.separator = ;
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding.pkg = sun.io
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.country = PL
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.script = 
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.os.patch.level = Service Pack 1
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.dir = C:\Praca_Licencjacka
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.variant = 
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.jnu.encoding = Cp1250
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.home = C:\Users\Karol
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.timezone = Europe/Belgrade
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] file.encoding = UTF-8
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.name = Karol
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.java.command = BudowanieBazy
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] sun.arch.data.model = 64
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] user.language = pl
+2019-12-09 20:29:57.675+0000 INFO [o.n.i.d.DiagnosticsManager] awt.toolkit = sun.awt.windows.WToolkit
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] file.separator = \
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.endian = little
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] sun.desktop = windows
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] sun.cpu.isalist = amd64
+2019-12-09 20:29:57.676+0000 INFO [o.n.i.d.DiagnosticsManager] (IANA) TimeZone Database Version:
+2019-12-09 20:29:57.704+0000 INFO [o.n.i.d.DiagnosticsManager]   TimeZone version: 2018g (available for 599 zone identifiers)
+2019-12-09 20:29:57.704+0000 INFO [o.n.i.d.DiagnosticsManager] Network information:
+2019-12-09 20:29:57.859+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Software Loopback Interface 1:
+2019-12-09 20:29:57.859+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 127.0.0.1
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 0:0:0:0:0:0:0:1
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (SSTP):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (L2TP):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPTP):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (PPPOE):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IKEv2):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:f5fd:ea92:a57e:f37%eth3
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Dell Wireless 1506 802.11b/g/n (2.4GHz):
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Remote NDIS based Internet Sharing Device:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #4:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP #3:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9:
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:34de:7e:7b74:5ceb%eth5
+2019-12-09 20:29:57.860+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (Protokół TDI RFCOMM):
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista):
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:2522:233c:95ce:7b77%eth6
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Karta Microsoft ISATAP:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 169.254.247.172
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:6cd3:e6f5:e7a5:f7ac%eth7
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: 192.168.1.1
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:d948:eec0:9cb4:dc18%wlan1
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager]     address: fe80:0:0:0:9803:bef7:3d4c:abad%wlan2
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Ethernet Connection I217-LM-WFP LightWeight Filter-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Virtual WiFi Filter Driver-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.861+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.863+0000 INFO [o.n.i.d.DiagnosticsManager] Interface TAP-Windows Adapter V9-WFP LightWeight Filter-0000:
+2019-12-09 20:29:57.863+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.863+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.863+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Npcap Loopback Adapter-WFP LightWeight Filter-0000:
+2019-12-09 20:29:57.863+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Urządzenie Bluetooth (sieć osobista)-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-Native WiFi Filter Driver-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Intel(R) Centrino(R) Advanced-N 6235-WFP LightWeight Filter-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Native WiFi Filter Driver-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-QoS Packet Scheduler-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface Microsoft Virtual WiFi Miniport Adapter #2-WFP LightWeight Filter-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] Interface RAS Async Adapter-Npcap Packet Driver (NPCAP)-0000:
+2019-12-09 20:29:57.864+0000 INFO [o.n.i.d.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2019-12-09 20:29:58.087+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:29:58.118+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected RecordFormat:StandardV3_4[v0.A.9] record format from store C:\Praca_Licencjacka\Baza_Grafowa
+2019-12-09 20:29:58.119+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Format not configured. Selected format from the store: RecordFormat:StandardV3_4[v0.A.9]
+2019-12-09 20:29:58.685+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job registered
+2019-12-09 20:29:58.687+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job started
+2019-12-09 20:29:58.691+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job finished: Number of pages visited: 2, Number of cleaned crashed pointers: 0, Time spent: 3ms
+2019-12-09 20:29:58.692+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Label index cleanup job closed
+2019-12-09 20:29:58.692+0000 INFO [o.n.k.NeoStoreDataSource] No check point found in transaction log
+2019-12-09 20:29:58.693+0000 INFO [o.n.k.NeoStoreDataSource] Recovery required from position LogPosition{logVersion=0, byteOffset=16}
+2019-12-09 20:29:58.702+0000 INFO [o.n.k.r.Recovery]   10% completed
+2019-12-09 20:29:58.703+0000 INFO [o.n.k.r.Recovery]   20% completed
+2019-12-09 20:29:58.703+0000 INFO [o.n.k.r.Recovery]   30% completed
+2019-12-09 20:29:58.703+0000 INFO [o.n.k.r.Recovery]   40% completed
+2019-12-09 20:29:58.703+0000 INFO [o.n.k.r.Recovery]   50% completed
+2019-12-09 20:29:58.704+0000 INFO [o.n.k.r.Recovery]   60% completed
+2019-12-09 20:29:58.704+0000 INFO [o.n.k.r.Recovery]   70% completed
+2019-12-09 20:29:58.704+0000 INFO [o.n.k.r.Recovery]   80% completed
+2019-12-09 20:29:58.704+0000 INFO [o.n.k.r.Recovery]   90% completed
+2019-12-09 20:29:58.704+0000 INFO [o.n.k.r.Recovery]   100% completed
+2019-12-09 20:29:58.706+0000 INFO [o.n.k.NeoStoreDataSource] No recovery required
+2019-12-09 20:29:58.707+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] ...
+2019-12-09 20:29:58.718+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels] high id=1 (defragged=0)
+2019-12-09 20:29:58.718+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db.labels rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.719+0000 INFO [o.n.k.i.s.NodeStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] ...
+2019-12-09 20:29:58.727+0000 INFO [o.n.k.i.s.NodeStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db] high id=0 (defragged=0)
+2019-12-09 20:29:58.727+0000 INFO [o.n.k.i.s.NodeStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.nodestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.727+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] ...
+2019-12-09 20:29:58.736+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys] high id=1 (defragged=0)
+2019-12-09 20:29:58.736+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index.keys rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.736+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] ...
+2019-12-09 20:29:58.745+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index] high id=0 (defragged=0)
+2019-12-09 20:29:58.745+0000 INFO [o.n.k.i.s.PropertyKeyTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.index rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.755+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] ...
+2019-12-09 20:29:58.764+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings] high id=1 (defragged=0)
+2019-12-09 20:29:58.764+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.strings rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.765+0000 INFO [o.n.k.i.s.DynamicArrayStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] ...
+2019-12-09 20:29:58.773+0000 INFO [o.n.k.i.s.DynamicArrayStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays] high id=1 (defragged=0)
+2019-12-09 20:29:58.774+0000 INFO [o.n.k.i.s.DynamicArrayStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db.arrays rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.774+0000 INFO [o.n.k.i.s.PropertyStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] ...
+2019-12-09 20:29:58.783+0000 INFO [o.n.k.i.s.PropertyStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db] high id=0 (defragged=0)
+2019-12-09 20:29:58.783+0000 INFO [o.n.k.i.s.PropertyStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.propertystore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.783+0000 INFO [o.n.k.i.s.RelationshipStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] ...
+2019-12-09 20:29:58.792+0000 INFO [o.n.k.i.s.RelationshipStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db] high id=0 (defragged=0)
+2019-12-09 20:29:58.792+0000 INFO [o.n.k.i.s.RelationshipStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.792+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] ...
+2019-12-09 20:29:58.801+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names] high id=1 (defragged=0)
+2019-12-09 20:29:58.801+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.802+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] ...
+2019-12-09 20:29:58.811+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db] high id=0 (defragged=0)
+2019-12-09 20:29:58.812+0000 INFO [o.n.k.i.s.RelationshipTypeTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshiptypestore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.821+0000 INFO [o.n.k.i.s.DynamicStringStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] ...
+2019-12-09 20:29:58.831+0000 INFO [o.n.k.i.s.DynamicStringStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names] high id=1 (defragged=0)
+2019-12-09 20:29:58.831+0000 INFO [o.n.k.i.s.DynamicStringStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db.names rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.831+0000 INFO [o.n.k.i.s.LabelTokenStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] ...
+2019-12-09 20:29:58.840+0000 INFO [o.n.k.i.s.LabelTokenStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db] high id=0 (defragged=0)
+2019-12-09 20:29:58.840+0000 INFO [o.n.k.i.s.LabelTokenStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.labeltokenstore.db rebuild id generator, highId=0 defragged count=0
+2019-12-09 20:29:58.850+0000 INFO [o.n.k.i.s.SchemaStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] ...
+2019-12-09 20:29:58.859+0000 INFO [o.n.k.i.s.SchemaStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db] high id=1 (defragged=0)
+2019-12-09 20:29:58.859+0000 INFO [o.n.k.i.s.SchemaStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.schemastore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.859+0000 INFO [o.n.k.i.s.RelationshipGroupStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] ...
+2019-12-09 20:29:58.868+0000 INFO [o.n.k.i.s.RelationshipGroupStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db] high id=1 (defragged=0)
+2019-12-09 20:29:58.868+0000 INFO [o.n.k.i.s.RelationshipGroupStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore.relationshipgroupstore.db rebuild id generator, highId=1 defragged count=0
+2019-12-09 20:29:58.869+0000 INFO [o.n.k.i.s.MetaDataStore] Rebuilding id generator for[C:\Praca_Licencjacka\Baza_Grafowa\neostore] ...
+2019-12-09 20:29:58.878+0000 INFO [o.n.k.i.s.MetaDataStore] [C:\Praca_Licencjacka\Baza_Grafowa\neostore] high id=15 (defragged=0)
+2019-12-09 20:29:58.879+0000 INFO [o.n.k.i.s.MetaDataStore] C:\Praca_Licencjacka\Baza_Grafowa\neostore rebuild id generator, highId=15 defragged count=0
+2019-12-09 20:29:58.896+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2019-12-09 20:29:58.896+0000 INFO [o.n.i.d.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1575919522442, randomId=7984231267826260476, storeVersion=16094931155187206, upgradeTime=1575919522442, upgradeId=1}
+2019-12-09 20:29:58.897+0000 INFO [o.n.i.d.DiagnosticsManager] Kernel version: 3.5.12,f4f02a725dc05d043a71684ce5d6f22f0c323378
+2019-12-09 20:29:58.897+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2019-12-09 20:29:58.899+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2019-12-09 20:29:58.899+0000 INFO [o.n.i.d.DiagnosticsManager] Store versions:
+2019-12-09 20:29:58.900+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:29:58.900+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore v0.A.9
+2019-12-09 20:29:58.900+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:29:58.900+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore v0.A.9
+2019-12-09 20:29:58.900+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:29:58.901+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore v0.A.9
+2019-12-09 20:29:58.901+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore v0.A.9
+2019-12-09 20:29:58.901+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore v0.A.9
+2019-12-09 20:29:58.901+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:29:58.901+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore v0.A.9
+2019-12-09 20:29:58.902+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore v0.A.9
+2019-12-09 20:29:58.902+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore v0.A.9
+2019-12-09 20:29:58.902+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore v0.A.9
+2019-12-09 20:29:58.902+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore v0.A.9
+2019-12-09 20:29:58.902+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore v0.A.9
+2019-12-09 20:29:58.903+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2019-12-09 20:29:58.903+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2019-12-09 20:29:58.903+0000 INFO [o.n.i.d.DiagnosticsManager] Id usage:
+2019-12-09 20:29:58.904+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:29:58.904+0000 INFO [o.n.i.d.DiagnosticsManager]   NodeStore: used=0 high=-1
+2019-12-09 20:29:58.904+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:29:58.904+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2019-12-09 20:29:58.905+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:29:58.905+0000 INFO [o.n.i.d.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2019-12-09 20:29:58.905+0000 INFO [o.n.i.d.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2019-12-09 20:29:58.905+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2019-12-09 20:29:58.905+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:29:58.906+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2019-12-09 20:29:58.906+0000 INFO [o.n.i.d.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2019-12-09 20:29:58.906+0000 INFO [o.n.i.d.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2019-12-09 20:29:58.906+0000 INFO [o.n.i.d.DiagnosticsManager]   SchemaStore: used=1 high=0
+2019-12-09 20:29:58.906+0000 INFO [o.n.i.d.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2019-12-09 20:29:58.907+0000 INFO [o.n.i.d.DiagnosticsManager]   NeoStore: used=15 high=14
+2019-12-09 20:29:58.907+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2019-12-09 20:29:58.907+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2019-12-09 20:29:58.907+0000 INFO [o.n.i.d.DiagnosticsManager] Neostore records:
+2019-12-09 20:29:58.908+0000 INFO [o.n.i.d.DiagnosticsManager] TIME (Creation time): 1575919522442
+2019-12-09 20:29:58.908+0000 INFO [o.n.i.d.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): 7984231267826260476
+2019-12-09 20:29:58.908+0000 INFO [o.n.i.d.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2019-12-09 20:29:58.909+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2019-12-09 20:29:58.909+0000 INFO [o.n.i.d.DiagnosticsManager] STORE_VERSION (Store format version): 16094931155187206
+2019-12-09 20:29:58.909+0000 INFO [o.n.i.d.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2019-12-09 20:29:58.909+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2019-12-09 20:29:58.909+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1575919522442
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2019-12-09 20:29:58.910+0000 INFO [o.n.i.d.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2019-12-09 20:29:58.911+0000 INFO [o.n.i.d.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2019-12-09 20:29:58.911+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2019-12-09 20:29:58.912+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2019-12-09 20:29:58.913+0000 INFO [o.n.i.d.DiagnosticsManager] Transaction log:
+2019-12-09 20:29:58.913+0000 INFO [o.n.i.d.DiagnosticsManager] No transactions found in any log
+2019-12-09 20:29:58.914+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2019-12-09 20:29:58.918+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2019-12-09 20:29:58.919+0000 INFO [o.n.i.d.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 485423575040 / 204668510208 / 42
+2019-12-09 20:29:58.919+0000 INFO [o.n.i.d.DiagnosticsManager] Storage files: (filename : modification date - size)
+2019-12-09 20:29:58.923+0000 INFO [o.n.i.d.DiagnosticsManager]   index:
+2019-12-09 20:29:58.925+0000 INFO [o.n.i.d.DiagnosticsManager]   - Total: 2019-12-09T20:25:24+0100 - 0.00 B
+2019-12-09 20:29:58.925+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.926+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.counts.db.a: 2019-12-09T20:25:25+0100 - 96.00 B
+2019-12-09 20:29:58.926+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.927+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labelscanstore.db: 2019-12-09T21:29:58+0100 - 40.00 kB
+2019-12-09 20:29:58.927+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.928+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.928+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.928+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.929+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.929+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.930+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.930+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.931+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.931+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.932+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.932+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.933+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.933+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.934+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.934+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.935+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.935+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.936+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.936+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.937+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.938+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshipstore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.938+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db: 2019-12-09T20:25:22+0100 - 0.00 B
+2019-12-09 20:29:58.939+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.939+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.940+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.940+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db: 2019-12-09T20:25:22+0100 - 8.00 kB
+2019-12-09 20:29:58.941+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.schemastore.db.id: 2019-12-09T21:29:58+0100 - 9.00 B
+2019-12-09 20:29:58.941+0000 INFO [o.n.i.d.DiagnosticsManager]   neostore.transaction.db.0: 2019-12-09T20:25:25+0100 - 16.00 B
+2019-12-09 20:29:58.941+0000 INFO [o.n.i.d.DiagnosticsManager] Storage summary: 
+2019-12-09 20:29:58.942+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of store: 112.24 kB
+2019-12-09 20:29:58.942+0000 INFO [o.n.i.d.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2019-12-09 20:29:58.942+0000 INFO [o.n.i.d.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2019-12-09 20:29:58.943+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Fulfilling of requirement 'Database available' makes database Baza_Grafowa available.
+2019-12-09 20:29:58.944+0000 INFO [o.n.k.a.DatabaseAvailabilityGuard] Database Baza_Grafowa is ready.
+2019-12-09 20:29:58.944+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
