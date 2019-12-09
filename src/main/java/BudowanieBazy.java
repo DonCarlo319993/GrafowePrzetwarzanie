@@ -17,7 +17,7 @@ public class BudowanieBazy {
         firstNode.setProperty("message", "Hello, ");
         secondNode = graphDb.createNode();
         secondNode.setProperty("message", "World!");
-
+//dffffffff
 
 
     }
