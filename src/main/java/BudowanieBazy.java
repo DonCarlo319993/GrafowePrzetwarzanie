@@ -21,10 +21,7 @@ public class BudowanieBazy {
 
 
     }
-    private enum RelTypes implements RelationshipType
-    {
-        Zna
-    }
+
 
 
 
