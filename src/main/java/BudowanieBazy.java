@@ -4,7 +4,7 @@ import org.neo4j.graphdb.factory.GraphDatabaseFactory;
 import java.io.File;
 
 public class BudowanieBazy {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Node firstNode;
         Node secondNode;
         Relationship relationship;
@@ -33,8 +33,10 @@ public class BudowanieBazy {
 
 
 
-    }
 
+
+    }
+*/
 
 
 
