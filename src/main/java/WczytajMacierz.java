@@ -1,3 +1,5 @@
+import org.neo4j.codegen.bytecode.If;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.*;
@@ -6,7 +8,7 @@ public class WczytajMacierz {
     public static void main(String[] args) throws FileNotFoundException {
 
 
-        File macierz = new File("C:/Users/Karol/Desktop/Macierze/Stranke94/Stranke94.mtx");
+        File macierz = new File("C:/Users/Karol/Desktop/Macierze/ash85/ash85.mtx");
         Scanner odczyt = new Scanner(macierz);
         String tekst = odczyt.nextLine();
         String[] aktualnaLinia;
@@ -21,26 +23,34 @@ public class WczytajMacierz {
             System.out.println(tekst);
         }
 
-        List<List<Integer>> wierzcholek = new ArrayList<List<Integer>>();
+        List<List<Float>> wierzcholek = new ArrayList<List<Float>>();
         aktualnaLinia = tekst.split(" ");
         liczba = Integer.parseInt(aktualnaLinia[0]);
         for (int i = 0; i<liczba; i++){
-            wierzcholek.add(new LinkedList<Integer>());
+            wierzcholek.add(new LinkedList<Float>());
         }
 
 
-        System.out.println("\nOd tego moment zaczyna się macierz: \n");
+        System.out.println("\nOd tego momentu zaczyna się macierz: \n");
 
         while (odczyt.hasNextLine()){
             tekst = odczyt.nextLine();
             System.out.println(tekst);
             aktualnaLinia = tekst.split(" ");
-            List<Integer> aktualnaLiniaInt = new ArrayList<>();
+            List<Float> aktualnaLiniaInt = new ArrayList<>();
 
-            for (int i = 0; i<2; i++){
-                aktualnaLiniaInt.add(Integer.parseInt(aktualnaLinia[i+1]));
+
+
+            if (aktualnaLinia.length < 3) {
+                aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 1]));
+                aktualnaLiniaInt.add((float) 1);
+            }else {
+                aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 2]));
+                aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 1]));
 
             }
+
+
             iterator = Integer.parseInt(aktualnaLinia[0]);
             if (wierzcholek.get(iterator).isEmpty()) {
                 wierzcholek.add(iterator, aktualnaLiniaInt);
@@ -49,7 +59,7 @@ public class WczytajMacierz {
 
 
             }else {
-                List<Integer> scalona = new ArrayList<>(wierzcholek.get(iterator));
+                List<Float> scalona = new ArrayList<>(wierzcholek.get(iterator));
                 scalona.addAll(aktualnaLiniaInt);
                 wierzcholek.set(iterator, scalona);
 
