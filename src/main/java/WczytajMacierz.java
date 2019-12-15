@@ -21,6 +21,8 @@ public class WczytajMacierz {
         int liczbaRel;
         int iterator = 0;
         int rozmiar = 0;
+        int indeks;
+        float temp;
 
 
 
@@ -87,6 +89,7 @@ public class WczytajMacierz {
 
         List<Node> nodes = new ArrayList<>();
         List<Relationship> relacje = new ArrayList<>();
+        Relationship testowa;
 
         GraphDatabaseService graf = new GraphDatabaseFactory().newEmbeddedDatabase(new File("C://Praca_Licencjacka//Baza_Grafowa"));
 
@@ -99,11 +102,26 @@ public class WczytajMacierz {
                 nodes.get(i).setProperty("value", i);
             }
 
-            System.out.println(nodes.get(6).getProperty("value"));
-            wierzcholek.get(1).get(0);
+/*            System.out.println(nodes.get(6).getProperty("value"));
+            System.out.println(Math.round(wierzcholek.get(2).get(0)));
 
-            for (int i=1; i<=liczbaRel; i++){
-                relacje.add(i, nodes.get(i).createRelationshipTo(nodes.get(wierzcholek.get(i).get(0)), RelTypes.RELACJA));
+            testowa = nodes.get(2).createRelationshipTo(nodes.get(3), RelTypes.RELACJA);
+            relacje.add(testowa);
+            testowa = nodes.get(5).createRelationshipTo(nodes.get(7), RelTypes.RELACJA);
+            relacje.add(testowa);*/
+
+
+            for (int i=1; i<liczbaWierzch; i++){
+                System.out.println(wierzcholek.get(i).get(0));
+                temp = wierzcholek.get(i).get(0);
+                indeks = (int) temp;
+                testowa = nodes.get(i).createRelationshipTo(nodes.get(indeks), RelTypes.RELACJA);
+                testowa.setProperty("value", wierzcholek.get(i).get(1));
+//                relacje.add(testowa);
+//                testowa = nodes.get(i).createRelationshipTo(nodes.get()), RelTypes.RELACJA;
+
+//                relacje.add(i, nodes.get(i).createRelationshipTo(nodes.get(indeks), RelTypes.RELACJA));
+
             }
 
 
