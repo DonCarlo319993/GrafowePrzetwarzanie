@@ -23,6 +23,7 @@ public class WczytajMacierz {
         int rozmiar = 0;
         int indeks;
         float temp;
+        int liczbaElementow;
 
 
 
@@ -39,7 +40,6 @@ public class WczytajMacierz {
             wierzcholek.add(new LinkedList<Float>());
         }
 
-
         System.out.println("\nOd tego momentu zaczyna się macierz: \n");
 
         while (odczyt.hasNextLine()){
@@ -48,15 +48,12 @@ public class WczytajMacierz {
             aktualnaLinia = tekst.split(" ");
             List<Float> aktualnaLiniaInt = new ArrayList<>();
 
-
-
             if (aktualnaLinia.length < 3) {
                 aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 1]));
                 aktualnaLiniaInt.add((float) 1);
             }else {
                 aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 2]));
                 aktualnaLiniaInt.add(Float.parseFloat(aktualnaLinia[aktualnaLinia.length - 1]));
-
             }
 
 
@@ -64,7 +61,6 @@ public class WczytajMacierz {
             if (wierzcholek.get(iterator).isEmpty()) {
                 wierzcholek.add(iterator, aktualnaLiniaInt);
                 rozmiar++;
-//                wierzcholek.remove(rozmiar);
 
 
             }else {
@@ -111,29 +107,19 @@ public class WczytajMacierz {
             relacje.add(testowa);*/
 
 
-            for (int i=1; i<liczbaWierzch; i++){
-                System.out.println(wierzcholek.get(i).get(0));
-                temp = wierzcholek.get(i).get(0);
-                indeks = (int) temp;
-                testowa = nodes.get(i).createRelationshipTo(nodes.get(indeks), RelTypes.RELACJA);
-                testowa.setProperty("value", wierzcholek.get(i).get(1));
-//                relacje.add(testowa);
-//                testowa = nodes.get(i).createRelationshipTo(nodes.get()), RelTypes.RELACJA;
-
-//                relacje.add(i, nodes.get(i).createRelationshipTo(nodes.get(indeks), RelTypes.RELACJA));
-
+            for (int i=1; i<=liczbaWierzch; i++){
+                liczbaElementow = wierzcholek.get(i).size();
+                for (int j = 0; j<liczbaElementow; j=j+2) {
+                    System.out.println(wierzcholek.get(i).get(j));
+                    temp = wierzcholek.get(i).get(j);
+                    indeks = (int) temp;
+                    testowa = nodes.get(i).createRelationshipTo(nodes.get(indeks), RelTypes.RELACJA);
+                    testowa.setProperty("value", wierzcholek.get(i).get(j+1));
+                }
             }
-
-
-
-
 
             tx.success();
         }
-
-
-
-
 
 
     }
