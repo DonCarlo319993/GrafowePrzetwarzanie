@@ -1,9 +1,8 @@
 import org.neo4j.codegen.bytecode.If;
-import org.neo4j.graphdb.GraphDatabaseService;
-import org.neo4j.graphdb.Node;
-import org.neo4j.graphdb.Relationship;
-import org.neo4j.graphdb.Transaction;
+import org.neo4j.graphdb.*;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
+import org.neo4j.graphdb.schema.IndexDefinition;
+import org.neo4j.graphdb.schema.Schema;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -13,7 +12,7 @@ public class WczytajMacierz {
     public static void main(String[] args) throws FileNotFoundException {
 
 
-        File macierz = new File("C:/Users/Karol/Desktop/Macierze/ash85/ash85.mtx");
+        File macierz = new File("C:/Users/Karol/Desktop/Macierze/Stranke94/Stranke94.mtx");
         Scanner odczyt = new Scanner(macierz);
         String tekst = odczyt.nextLine();
         String[] aktualnaLinia;
@@ -82,11 +81,21 @@ public class WczytajMacierz {
         Relationship testowa;
 
         GraphDatabaseService graf = new GraphDatabaseFactory().newEmbeddedDatabase(new File("C://Praca_Licencjacka//Baza_Grafowa"));
+        IndexDefinition indexDefinition;
+        try(Transaction tx = graf.beginTx()) {
+            Schema schema = graf.schema();
+            indexDefinition = schema.indexFor(Label.label("Wierzcholek")).on("value").create();
 
+
+            tx.success();
+        }
 
         try(Transaction tx = graf.beginTx()) {
+
+
+           Label label = Label.label("Wierzcholek");
             for (int i = 0; i < liczbaWierzch; i++) {
-                nodes.add(i, graf.createNode());
+                nodes.add(i, graf.createNode(label));
             }
             for (int i = 0; i<liczbaWierzch; i++){
                 nodes.get(i).setProperty("value", i+1);
