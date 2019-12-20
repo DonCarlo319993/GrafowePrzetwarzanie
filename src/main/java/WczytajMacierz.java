@@ -1,3 +1,4 @@
+/*
 import org.neo4j.codegen.bytecode.If;
 import org.neo4j.graphdb.*;
 import org.neo4j.graphdb.factory.GraphDatabaseFactory;
@@ -12,7 +13,7 @@ public class WczytajMacierz {
     public static void main(String[] args) throws FileNotFoundException {
 
 
-        File macierz = new File("C:/Users/Karol/Desktop/Macierze/Stranke94/Stranke94.mtx");
+        File macierz = new File("C:/Users/Karol/Desktop/Macierze/bcsstk20/bcsstk20.mtx");
         Scanner odczyt = new Scanner(macierz);
         String tekst = odczyt.nextLine();
         String[] aktualnaLinia;
@@ -101,13 +102,14 @@ public class WczytajMacierz {
                 nodes.get(i).setProperty("value", i+1);
             }
 
-/*            System.out.println(nodes.get(6).getProperty("value"));
+            System.out.println(nodes.get(6).getProperty("value"));
             System.out.println(Math.round(wierzcholek.get(2).get(0)));
 
             testowa = nodes.get(2).createRelationshipTo(nodes.get(3), RelTypes.RELACJA);
             relacje.add(testowa);
             testowa = nodes.get(5).createRelationshipTo(nodes.get(7), RelTypes.RELACJA);
-            relacje.add(testowa);*/
+            relacje.add(testowa);
+
 
 
             for (int i=0; i<liczbaWierzch; i++){
@@ -130,3 +132,4 @@ public class WczytajMacierz {
 
     }
 }
+*/
