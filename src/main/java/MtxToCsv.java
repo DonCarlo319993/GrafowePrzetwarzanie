@@ -40,7 +40,9 @@ public class MtxToCsv {
                     "LOAD CSV FROM 'file:///C:/Users/Karol/Desktop/Macierze/bcsstk20/bcsstk20.csv'" +
                     "WITH toInteger(row[0]) AS first, toInteger(row[1]) AS second, toFloat(row[2]) AS value" +
                     "MATCH (f:First {first: first}) " +
-                    "MATCH (s:Second {second: second})");
+                    "MATCH (s:Second {second: second})" +
+                    "MERGE (f)-[rel:zawiera {first: first}]->(s)\n" +
+                    "RETURN count(rel)");
 
             tx.success();
         }
