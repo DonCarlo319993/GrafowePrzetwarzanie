@@ -1,3 +1,8 @@
+import org.neo4j.graphdb.GraphDatabaseService;
+import org.neo4j.graphdb.Result;
+import org.neo4j.graphdb.Transaction;
+import org.neo4j.graphdb.factory.GraphDatabaseFactory;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
@@ -26,7 +31,19 @@ public class MtxToCsv {
         }
         zapis.close();
 
+        GraphDatabaseService db = new GraphDatabaseFactory()
+                .newEmbeddedDatabase(new File("C:/Users/Karol/Desktop/Macierze/bcsstk20/grafek/"));
 
+        try ( Transaction tx = db.beginTx())
+        {
+            Result importanteDeLaNoche = db.execute("USING PERIODIC COMMIT 1" +
+                    "LOAD CSV FROM 'file:///C:/Users/Karol/Desktop/Macierze/bcsstk20/bcsstk20.csv'" +
+                    "WITH toInteger(row[0]) AS first, toInteger(row[1]) AS second, toFloat(row[2]) AS value" +
+                    "MATCH (f:First {first: first}) " +
+                    "MATCH (s:Second {second: second})");
+
+            tx.success();
+        }
 
     }
 }
